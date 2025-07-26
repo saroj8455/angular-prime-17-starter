@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { ConfigService } from './services/config.service';
 import { FlexiconsComponent } from './components/flexicons/flexicons.component';
 import { PrimeconfigModule } from './primeconfig/primeconfig.module';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FlexiconsComponent, PrimeconfigModule],
+  imports: [RouterOutlet, PrimeconfigModule,FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

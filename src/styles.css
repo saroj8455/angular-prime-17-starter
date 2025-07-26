@@ -157,3 +157,10 @@ p-button {
 .p-button-label {
   font-weight: 500;
 }
+
+html, body {
+  height: 100%;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
